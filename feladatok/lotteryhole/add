@@ -1,0 +1,8 @@
+Mennyi az esélye hogy az $N$-ból $K$-as lottón olyan számokat húznak, 
+melyek közt van két szomszédos?
+
+$N\ K$
+
+$20\le10*K\leN\le100$. 
+
+A keresett valség minimum 12 jegyre kiírva.

@@ -1,0 +1,13 @@
+$n$ jóbarát: $b_1,\ldots,b_n$ céllövőversenyt rendez. A szabály egyszerű: addig lőnek sorban amíg
+egyikük el nem találja a célt. A képességüket egy $p_1,\ldots,p_n$ számsorozattal jellemezhetjük:
+$p_k$ annak a valsége hogy $b_k$ célbatalál. Számoljuk ki azt a $q_1,\ldots,q_n$ valség sorozatot amire 
+$q_k$ annak a valsége, hogy $b_k$ nyeri a versenyt.
+
+
+
+$n$ valós szám egy sorban:<br>
+$p_1 \ldots p_n$
+
+$1<n<77,\ 0<p_k<1$
+
+a $q_1,\ldots,q_n$ értekei 12-jegyre kerekítve. Soronként egy szám.

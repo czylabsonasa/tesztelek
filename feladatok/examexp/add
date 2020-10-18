@@ -1,0 +1,18 @@
+
+
+expected value of success
+
+
+Egy diák $N$ tételből $K$-t tanult meg (ha ezeket húzza tuti átmegy), a többiről fogalma sincsen (bukta). A vizsgán $2$ tételt 
+kell húzni, de csak az egyiket kell kidolgozni (azaz egyet visszadhat). 
+Ha valamelyik kihúzott tételt megtanulta, akkor az egyszerűség kedvéért tegyük fel, hogy 
+egyforma eséllyel kap egyet a $2,3,4,5$ a jegyekből. Mennyi a várható osztályzata?
+
+$N$ és $K$ egy sorban:<br>
+$N$ $K$
+
+
+$0\le K\le N\le 30$
+
+A várható érdemjegy, $12$ értékes jeggyel.
+

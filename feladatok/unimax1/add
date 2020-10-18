@@ -1,0 +1,8 @@
+$T$-szer feldobva egy $F$-oldalú "kockát", mennyi a kapott számok maximumának 
+várható értéke?
+
+$T\ F$
+
+$1\le T\le 33,\ 1\le F\le 33$. 
+
+A keresett várható érték minimum 12 jegyre kiírva.

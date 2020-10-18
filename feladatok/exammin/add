@@ -1,0 +1,12 @@
+Egy diák $N$ tételből $K$-t tanult meg (ha ezeket húzza tuti átmegy), a többiről fogalma sincsen 
+(bukta). A vizsgán $2$ tételt kell húzni, de csak az egyiket kell kidolgozni. 
+A diák azt szeretné tudni, hogy mekkora a minimális $K$, mellyel a sikeres vizsga 
+esélye legalább $P$?
+
+
+$N$ és $P$ egy sorban:<br>
+$N$ $P$
+
+$1< N\le 30,\ 0<P\le 1$
+
+A minimálisan megtanulandó tételek $K$ száma.

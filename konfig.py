@@ -1,0 +1,9 @@
+PYTHON_BIN="python3"
+OCTAVE_BIN="octave-cli"
+JULIA_BIN="julia"
+FELADAT_KVT="feladatok"
+IO_KVT="io"
+I_EXT="in"
+O_EXT="out"
+FLOAT_TOL=1e-6
+INT_TOL=0
