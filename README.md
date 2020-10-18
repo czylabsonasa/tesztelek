@@ -6,3 +6,5 @@
 
 [júlia](julia.png)
 
+
+csak linuxon teszteltem.
