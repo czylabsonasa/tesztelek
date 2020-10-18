@@ -1,0 +1,11 @@
+Aladár partit rendez. Barátai közül véletlenszerűen 
+néhányat ($=M$). Az $M$-et úgy akarja meghatározni, hogy $P$-nél nagyobb eséllyel 
+legyen a partin két ember a vendégek közt, akik ugyanazon a napon születettek.<br> 
+Adott $0<P<1$ esetén mekkora a minimális $M$?
+
+$P$
+
+$0<P< 1$. Az évet tekintsük $365$ naposnak, az emberek születésnapját 
+pedig egyenletes eloszlásúnak a $365$ napon (azaz minden napnak ugyanolyan esélye van)
+
+A minimálisan meghívandó barátok $M$ száma.
