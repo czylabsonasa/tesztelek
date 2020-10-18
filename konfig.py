@@ -1,6 +1,7 @@
 PYTHON_BIN="python3"
 OCTAVE_BIN="octave-cli"
 JULIA_BIN="julia"
+MATLAB_BIN="matlab -r -nojvm "
 FELADAT_KVT="feladatok"
 IO_KVT="io"
 I_EXT="in"
