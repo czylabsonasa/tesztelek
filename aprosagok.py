@@ -1,5 +1,6 @@
 import sys,os,re,glob
 
+
 from konfig import *
 
 # felkeszules a futtatasra
