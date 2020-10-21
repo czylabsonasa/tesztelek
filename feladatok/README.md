@@ -1,5 +1,5 @@
 ### Általános:
-* a számokat legalább 9 jegyik írjuk ki a feladatoknál
+* a számokat legalább 9 jegyig írjuk ki a feladatoknál
 * az input/output formáját tekintve a megadott példák a mérvadók
 
 
@@ -16,7 +16,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 ### exam
 #### [examsuccess](examsuccess/examsuccess.pdf)
 * Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, akkor mekkora valséggel kapsz legalább 2-est?
-  * [megoldás](examsuccess/sol.tgz)
+  * [megoldás](examsuccess/code.md)
 
 #### [exammin](exammin/exammin.pdf)
 * Ha P-valséggel szeretnél 1-esnél jobbat hány tételt tanulj meg?
