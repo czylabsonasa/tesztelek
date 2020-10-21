@@ -1,5 +1,5 @@
 ### Általános:
-* a számokat legalább $9$ jegyik írjuk ki a feladatoknál
+* a számokat legalább 9 jegyik írjuk ki a feladatoknál
 * az input/output formáját tekintve a megadott példák a mérvadók
 
 
