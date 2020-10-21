@@ -14,9 +14,9 @@ def cmdtorun(prog,lang):
     return PYTHON_BIN+ret
   if lang=='julia':
     return JULIA_BIN+ret
-  if lang=='matlab':
-    return MATLAB_BIN+ret
-  return ''
+#  if lang=='matlab': 
+#    return MATLAB_BIN+ret
+  return ""
 
 
 def help():
