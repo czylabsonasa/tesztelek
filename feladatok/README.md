@@ -16,7 +16,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 ### exam
 #### [examsuccess](examsuccess/examsuccess.pdf)
 * Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, akkor mekkora valséggel kapsz legalább 2-est?
-  * [megoldás](examsucces/sol.tgz)
+  * [megoldás](examsuccess/sol.tgz)
 
 #### [exammin](exammin/exammin.pdf)
 * Ha P-valséggel szeretnél 1-esnél jobbat hány tételt tanulj meg?
