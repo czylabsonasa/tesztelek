@@ -4,8 +4,15 @@
 
 
 ### birthday
-#### [bdaymin](bdaymin/bdaymin.pdf)
-* a klasszikus születésnap probléma: hány ember kell hogy legyen egy társaságban, hogy 
+#### [bday](bday/bday.pdf) --- 0
+* a klasszikus születésnap probléma: M ember esetén mennyi az esélye 
+hogy látunk születésnap megegyezést?
+  * fontos **feltevés**: a születésnapok eloszlása egyenletes, azaz
+olyan v.vv-t figyelünk meg mely egyeforma valséggel vesz fel bármely számot az [1,365] intervallumból.
+  * [megoldás](bday/bday.md)
+
+#### [bdaymin](bdaymin/bdaymin.pdf) --- 1
+* hány ember kell hogy legyen egy társaságban, hogy 
 pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 ### die
@@ -14,12 +21,12 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 ### exam
-#### [examsuccess](examsuccess/examsuccess.pdf)
+#### [examsuccess](examsuccess/examsuccess.pdf) --- 0
 * Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, akkor mekkora valséggel kapsz legalább 2-est?
-  * [megoldás](examsuccess/code.md)
+  * [megoldás](examsuccess/examsuccess.md)
 
-#### [exammin](exammin/exammin.pdf)
+#### [exammin](exammin/exammin.pdf) --- 1
 * Ha P-valséggel szeretnél 1-esnél jobbat hány tételt tanulj meg?
 
-#### [examexp](examexp/examexp.pdf)
+#### [examexp](examexp/examexp.pdf) --- 1
 * mennyi a várható osztályzatod? (további részletek a pdf-ben)
