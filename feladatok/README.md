@@ -10,7 +10,7 @@
   * v.v. = valségi változó
 
 ---
-> ### birthday
+### birthday
 #### [bday](bday/bday.pdf)
 * (M)
 * a klasszikus születésnap probléma: M ember esetén mennyi az esélye 
@@ -26,10 +26,10 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 ---
-> ### die
+### die
 #### [die3](die3/die3.pdf)
 * (M)
-* 3 kockával dobve mennyi az esély hogy S a dobott számok összege?
+* 3 kockával dobva mennyi az esély hogy S a dobott számok összege?
   * [megoldás](die3/die3.md)
 
 #### [diesum](diesum/diesum.pdf)
@@ -39,7 +39,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 ---
-> ### exam
+### exam
 #### [examsuccess](examsuccess/examsuccess.pdf)
 * (M)
 * Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, akkor mekkora valséggel kapsz legalább 2-est?

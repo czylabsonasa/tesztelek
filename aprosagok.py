@@ -32,45 +32,50 @@ def help():
 
 # néhány előzetes ellenőrzés
 def precheck():
-  prog,lang,feladat=0,0,0
-  try:
-    prog,lang,feladat=sys.argv[1:4]
-  except:
-    print(help())
-    return []
+  ret=dict()
+  ret["msg"]="OK"
+  while True:
+    prog,lang,feladat=0,0,0
+    try:
+      prog,lang,feladat=sys.argv[1:4]
+    except:
+      ret["msg"]=help()
+      break
 
-  try:
-    open(prog).close()
-  except:
-    print("nem található a "+prog)
-    return []  
+    try:
+      open(prog).close()
+    except:
+      ret["msg"]="nem található a "+prog
+      break
 
-  cmd=cmdtorun(prog,lang)
-  if len(cmd)<1:
-    print("ismeretlen nyelv")
-    return []
+    cmd=cmdtorun(prog,lang)
+    if len(cmd)<1:
+      ret["msg"]="ismeretlen nyelv"
+      break
+    ret["cmd"]=cmd
 
-  fel_kvt=FELADAT_KVT+"/"+feladat
-  if not os.path.isdir(fel_kvt):
-    print("ismeretlen feladat")
-    return []
-    
+    fel_kvt=FELADAT_KVT+"/"+feladat
+    if not os.path.isdir(fel_kvt):
+      ret["msg"]="ismeretlen feladat"
+      break
+      
+    fel_io_kvt=fel_kvt+"/"+IO_KVT
+    if not os.path.isdir(fel_io_kvt):
+      ret["msg"]="nincs io könyvtára a feladatnak"
+      break
 
-  fel_io_kvt=fel_kvt+"/"+IO_KVT
-  if not os.path.isdir(fel_io_kvt):
-    print("nincs io könyvtára a feladatnak")
-    return []
 
+    in_lst=glob.glob(fel_io_kvt+"/*."+I_EXT)
+    out_lst=glob.glob(fel_io_kvt+"/*."+O_EXT)
+    #print(out_lst,flush=True)  
 
-  in_lst=glob.glob(fel_io_kvt+"/*."+I_EXT)
-  out_lst=glob.glob(fel_io_kvt+"/*."+O_EXT)
-  #print(out_lst,flush=True)  
-
-  if (len(in_lst)<1) or (len(in_lst) != len(out_lst)) or (set( v.split(".")[0] for v in in_lst) != set( v.split(".")[0] for v in out_lst)):
-    print("probléma az io fájlokkal")
-    return []
-
-  return [cmd, in_lst, out_lst ]
+    if (len(in_lst)<1) or (len(in_lst) != len(out_lst)) or (set( v.split(".")[0] for v in in_lst) != set( v.split(".")[0] for v in out_lst)):
+      ret["msg"]="probléma az io fájlokkal"
+    ret["in_lst"]=in_lst
+    ret["out_lst"]=out_lst
+    break
+  
+  return ret
 
 
 
@@ -103,7 +108,7 @@ def compare(d,t):
         pass
       break
 
-    try: # tulzas?
+    try: # tulzas? (str default...)
       akt(sd)
     except:
       return('hibás adat az outputban')
