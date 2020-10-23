@@ -28,3 +28,17 @@ end
 M=parse(Int,readline())
 println(solve(M))
 ```
+
+### python
+```python
+import numpy as np
+def solve(M):
+  if M<2:
+    return 0
+  if M>365:
+    return 1
+  return 1.0-np.prod(1.0 - np.array(range(0,M))/365.0)
+
+M=int(input())
+print(solve(M))
+```

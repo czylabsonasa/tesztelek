@@ -1,14 +1,16 @@
-### Általános:
+## Általános:
 * a számokat legalább 9 jegyig írjuk ki a feladatoknál
 * az input/output formáját tekintve a megadott példák a mérvadók
-
+* jelölés, rövidítés:
+  * valség = valószínűség
+  * v.v. = valségi változó
 
 ### birthday
 #### [bday](bday/bday.pdf) --- 0
 * a klasszikus születésnap probléma: M ember esetén mennyi az esélye 
 hogy látunk születésnap megegyezést?
   * fontos **feltevés**: a születésnapok eloszlása egyenletes, azaz
-olyan v.vv-t figyelünk meg mely egyeforma valséggel vesz fel bármely számot az [1,365] intervallumból.
+olyan v.v.-t figyelünk meg mely egyeforma valséggel vesz fel bármely számot az [1,365] intervallumból.
   * [megoldás](bday/bday.md)
 
 #### [bdaymin](bdaymin/bdaymin.pdf) --- 1
