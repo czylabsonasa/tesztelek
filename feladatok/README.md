@@ -24,10 +24,10 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 ### die
 #### [die3](die3/die3.pdf)___(M)
 * 3 kockával dobve mennyi az esély hogy S a dobott számok összege?
+  * [megoldás](die3/die3.md)
 
 #### [diesum](diesum/diesum.pdf)___(P2)
 * n kockát feldobva mennyi a valsége, hogy a dobott számok összege k?
-* [megoldás](die3/die3.md)
 
 ### exam
 #### [examsuccess](examsuccess/examsuccess.pdf)___(M)
