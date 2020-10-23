@@ -21,7 +21,7 @@ if ret["msg"]=="OK":
     [eleje,vege]=infile.split(".")
     szam=eleje.split("/")[-1]
 #    print('---> {0:s} ---> '.format(eleje),end='')
-    res=os.system(cmd+"< "+ infile + " > tmp/o")
+    res=os.system(cmd+"< "+ infile + " 1> tmp/o 2> tmp/err")
     if res!=0:
       res="futás közbeni hiba"
     else:

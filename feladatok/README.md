@@ -27,14 +27,20 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 ---
 ### die
-#### [die3](die3/die3.pdf)
+#### [die3sum](die3sum/die3sum.pdf)
 * (M)
 * 3 kockával dobva mennyi az esély hogy S a dobott számok összege?
-  * [megoldás](die3/die3.md)
+  * [megoldás](die3sum/die3sum.md)
 
 #### [diesum](diesum/diesum.pdf)
 * (P2)
 * n kockát feldobva mennyi a valsége, hogy a dobott számok összege k?
+
+#### [die2max](die2max/die2max.pdf)
+* (M)
+* 2 kockával dobva mennyi az esély hogy S a dobott számok maximuma?
+  * [megoldás](die2max/die2max.md)
+
 
 
 
