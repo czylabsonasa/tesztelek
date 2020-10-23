@@ -1,34 +1,41 @@
 ## Általános:
 * a számokat legalább 9 jegyig írjuk ki a feladatoknál
 * az input/output formáját tekintve a megadott példák a mérvadók
-* jelölés, rövidítés:
+* jelölés:
+  * (M): mintafeladat
+  * (Px) : pontos eredményt kell számolni, x-pontot ér
+  * (Sx) : szimulációs feladat, x-pontot ér
+* rövidítés:
   * valség = valószínűség
   * v.v. = valségi változó
 
 ### birthday
-#### [bday](bday/bday.pdf) --- 0
+#### [bday](bday/bday.pdf)___(M)
 * a klasszikus születésnap probléma: M ember esetén mennyi az esélye 
 hogy látunk születésnap megegyezést?
   * fontos **feltevés**: a születésnapok eloszlása egyenletes, azaz
 olyan v.v.-t figyelünk meg mely egyeforma valséggel vesz fel bármely számot az [1,365] intervallumból.
   * [megoldás](bday/bday.md)
 
-#### [bdaymin](bdaymin/bdaymin.pdf) --- 1
+#### [bdaymin](bdaymin/bdaymin.pdf)___(P1)
 * hány ember kell hogy legyen egy társaságban, hogy 
 pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 ### die
-#### [diesum](diesum/diesum.pdf)
-* n kockát feldobva mennyi a valsége, hogy a dobott számok összege k?
+#### [die3](die3/die3.pdf)___(M)
+* 3 kockával dobve mennyi az esély hogy S a dobott számok összege?
 
+#### [diesum](diesum/diesum.pdf)___(P2)
+* n kockát feldobva mennyi a valsége, hogy a dobott számok összege k?
+* [megoldás](die3/die3.md)
 
 ### exam
-#### [examsuccess](examsuccess/examsuccess.pdf) --- 0
+#### [examsuccess](examsuccess/examsuccess.pdf)___(M)
 * Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, akkor mekkora valséggel kapsz legalább 2-est?
   * [megoldás](examsuccess/examsuccess.md)
 
-#### [exammin](exammin/exammin.pdf) --- 1
+#### [exammin](exammin/exammin.pdf)___(P1)
 * Ha P-valséggel szeretnél 1-esnél jobbat hány tételt tanulj meg?
 
-#### [examexp](examexp/examexp.pdf) --- 1
+#### [examexp](examexp/examexp.pdf)___(P1)
 * mennyi a várható osztályzatod? (további részletek a pdf-ben)
