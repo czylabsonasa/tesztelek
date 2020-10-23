@@ -34,12 +34,17 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 #### [diesum](diesum/diesum.pdf)
 * (P2)
-* n kockát feldobva mennyi a valsége, hogy a dobott számok összege k?
+* n kockát feldobva mennyi a valsége, hogy a dobott számok összege S?
 
 #### [die2max](die2max/die2max.pdf)
 * (M)
 * 2 kockával dobva mennyi az esély hogy S a dobott számok maximuma?
   * [megoldás](die2max/die2max.md)
+
+#### [die2max](die2max/die2max.pdf)
+* (P2)
+* n kockával dobva mennyi az esély hogy S a dobott számok maximuma?
+
 
 
 
