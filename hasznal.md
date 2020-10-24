@@ -3,6 +3,7 @@
   * nyelv: python, octave, julia, binary
 
 Néhány kép a hívásról (az eredményt már másképp írja ki):
+
 [oktáv](etc/oct.png)
 
 [python](etc/pyth.png)
