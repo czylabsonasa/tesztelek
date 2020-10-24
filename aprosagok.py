@@ -10,12 +10,12 @@ def cmdtorun(prog,lang):
   ret=" "+prog
   if lang=="octave":
     return OCTAVE_BIN+ret
-  if lang=='python':
+  if lang=="python":
     return PYTHON_BIN+ret
-  if lang=='julia':
+  if lang=="julia":
     return JULIA_BIN+ret
-#  if lang=='matlab': 
-#    return MATLAB_BIN+ret
+  if lang=="binary":
+    return ret
   return ""
 
 

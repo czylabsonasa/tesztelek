@@ -2,6 +2,7 @@
 *.jl
 *.m
 *.cc
+*.bin
 *.log
 *.aux
 
