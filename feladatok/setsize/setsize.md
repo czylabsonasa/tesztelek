@@ -3,8 +3,8 @@
 pkg load statistics
 v=sscanf(fgetl(stdin),"%d ");
 N=v(1);
-M=v(2);
-fprintf(stdout,"%.9f\n",binopdf(M,N,0.5));
+K=v(2);
+fprintf(stdout,"%.9f\n",binopdf(K,N,0.5));
 ```
 
 ### julia
