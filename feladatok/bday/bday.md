@@ -43,7 +43,7 @@ M=int(input())
 print(solve(M))
 ```
 
-### C/C++
+### c/c++
 ```C
 #include <cstdio>
 

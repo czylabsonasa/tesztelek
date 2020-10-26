@@ -10,7 +10,7 @@
   * v.v. = valségi változó
 
 ---
-### birthday
+### születésnap
 #### [bday](bday/bday.pdf)
 * (M)
 * a klasszikus születésnap probléma: M ember esetén mennyi az esélye 
@@ -26,7 +26,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 ---
-### die
+### kocka
 #### [die3sum](die3sum/die3sum.pdf)
 * (M)
 * 3 kockával dobva mennyi az esély hogy S a dobott számok összege?
@@ -50,7 +50,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 ---
-### exam
+### vizsga
 #### [examsuccess](examsuccess/examsuccess.pdf)
 * (M)
 * Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, akkor mekkora valséggel kapsz legalább 2-est?
@@ -63,3 +63,11 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 #### [examexp](examexp/examexp.pdf)
 * (P1)
 * mennyi a várható osztályzatod? (további részletek a pdf-ben)
+
+---
+### halmaz
+#### [setsize](setsize/setsize.pdf)
+* (M)
+* Ha egy N elemű halmazból véletlenszerűen választunk egy részhalmazt (az összes közül egyforma valséggel)Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, akkor mekkora valséggel kapsz legalább 2-est?
+akkor mekkora eséllyel kapunk M eleműt?
+  * [megoldás](setsize/setsize.md)
