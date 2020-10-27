@@ -71,3 +71,8 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * Ha egy N elemű halmazból véletlenszerűen választunk egy részhalmazt (az összes közül egyforma valséggel)Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, akkor mekkora valséggel kapsz legalább 2-est?
 akkor mekkora eséllyel kapunk M eleműt?
   * [megoldás](setsize/setsize.md)
+
+#### [setexc](setexc/setexc.pdf)
+* (P1)
+* Mennyi az esélye hogy két részhalmaz diszjunkt?
+

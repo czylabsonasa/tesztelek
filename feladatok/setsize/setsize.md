@@ -4,7 +4,7 @@ pkg load statistics
 v=sscanf(fgetl(stdin),"%d ");
 N=v(1);
 K=v(2);
-fprintf(stdout,"%.9f\n",binopdf(K,N,0.5));
+fprintf(stdout,"%.9f\n",binopdf(K,N,0.5)); # pdf=prob. density function
 ```
 
 ### julia
@@ -12,7 +12,7 @@ fprintf(stdout,"%.9f\n",binopdf(K,N,0.5));
 # N elemű halmazbó véletlen választás
 using Distributions
 N,K=parse.(Int, split(readline()))
-P=pdf(Binomial(N,0.5),K)
+P=pdf(Binomial(N,0.5),K) # pdf=prob. density function
 println(P)
 ```
 
